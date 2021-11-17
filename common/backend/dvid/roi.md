@@ -16,3 +16,5 @@ For example, a ROI named MB may have a ROI data instance named `MB`, and an `MB`
 `{"->": {"key": "d230e3669195ebd143d73b22011f8eec"}}`,
 there should be a key `d230e3669195ebd143d73b22011f8eec` pointing to the actual mesh in the `roi_data` data instance.
 
+NeuTu/Neu3 try to fetch keys from the `rois` keyvalue first to use shown them in the ROI panel. If `rois` does not exist or it is empty, the list of native ROI data will be used instead.
+
