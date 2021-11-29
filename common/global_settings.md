@@ -37,4 +37,4 @@ NeuTu/Neu3 also uses environment variables to configure the settings. The follow
 - `NEUPRINT`: server URL for neuPrint.
 - `NEUPRINT_AUTH`: file path for neuPrint authentication token.
 - `DVID_BROWSE_DIALOG`: (EXPERIMENTAL) `yes` or `no` for using DVID browsing dialog or not.
-
+- `NEUTU_KAFKA_BROKERS`/`NEU3_KAFKA_BROKERS`: kafka brokers for NeuTu/Neu3.
