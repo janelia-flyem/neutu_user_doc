@@ -54,9 +54,9 @@ The predefined options of the body status can be configured in  `<dvid_base_url>
 
 # Body Annotation Dialog
 
-A body annotation dialog can be customized by configuration saved in DVID. NeuTu/Neu3 looks for the configuration at `<dvid_base_url>/api/node/<uuid>/<segmentation>_annotations/key/schema`. It is a JSON object that has the same format as used in Clio.
+A body annotation dialog can be customized by configuration saved in DVID. NeuTu/Neu3 looks for the configuration at `<dvid_base_url>/api/node/<uuid>/<segmentation>_annotations/key/schema`. It is a JSON object that has the same format as used in Clio. Multiple bodies can also be annotated together once with a similar body annotation dialog. But such a dialog uses a separate configuration at `<dvid_base_url>/api/node/<uuid>/<segmentation>_annotations/key/schema_batch` although the format is the same.
 
-Here is a simple example of the configuration:
+Here is a simple example of a configuration:
 
 ```
 {
