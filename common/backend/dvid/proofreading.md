@@ -7,7 +7,7 @@ NeuTu/Neu3 will try to create the following data instances while loading a datas
 | \<BODY\>_skeletons | keyvalue | Body skeletons | N |
 | \<BODY\>_thumbnails | keyvalue | (OBSOLETE) | N |
 | bookmarks | keyvalue | Additional bookmark information (mainly used to record if a bookmark is checked) | N |
-| \<BODY\>_annotations | keyvalue | User-scope annotations | N |
 | \<BODY\>_annotations | keyvalue | Body annotations | N |
 | \<BODY\>_splits | keyvalue | Split labels | N |
+| \<BODY\>_mesh_cache | keyvalue (unversioned) | Body mesh cache. | N |
 
